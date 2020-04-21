@@ -1,0 +1,18 @@
+# Created by trellis-cli v0.7.1
+# Documentation: https://roots.io/trellis/docs/wordpress-sites/
+
+wordpress_sites:
+  lh.local:
+    site_hosts:
+    - canonical: lh.test
+      redirects:
+      - www.lh.test
+    local_path: ../site
+    admin_email: admin@lh.test
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
