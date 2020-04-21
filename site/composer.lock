@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e69c6cb52d0d1308fe6557e878b130bb",
+    "content-hash": "9e5c94d5ded2b29e8d8c1d5c501304db",
     "packages": [
         {
             "name": "composer/installers",
@@ -582,6 +582,24 @@
             "homepage": "https://wordpress.org/plugins/mailchimp/"
         },
         {
+            "name": "wpackagist-plugin/seo-by-rank-math",
+            "version": "1.0.42.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/seo-by-rank-math/",
+                "reference": "tags/1.0.42.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.42.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/seo-by-rank-math/"
+        },
+        {
             "name": "wpackagist-plugin/woocommerce",
             "version": "4.0.1",
             "source": {
@@ -600,34 +618,16 @@
             "homepage": "https://wordpress.org/plugins/woocommerce/"
         },
         {
-            "name": "wpackagist-plugin/wordpress-seo",
-            "version": "13.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/13.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.13.5.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
-        },
-        {
             "name": "wpackagist-theme/hello-elementor",
-            "version": "2.2.2",
+            "version": "2.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/hello-elementor/",
-                "reference": "2.2.2"
+                "reference": "2.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.2.2.zip"
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.2.3.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -939,16 +939,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.4",
+            "version": "3.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "dceec07328401de6211037abbb18bda423677e26"
+                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/dceec07328401de6211037abbb18bda423677e26",
-                "reference": "dceec07328401de6211037abbb18bda423677e26",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
+                "reference": "73e2e7f57d958e7228fce50dc0c61f58f017f9f6",
                 "shasum": ""
             },
             "require": {
@@ -986,7 +986,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2020-01-30T22:20:29+00:00"
+            "time": "2020-04-17T01:09:41+00:00"
         }
     ],
     "aliases": [],

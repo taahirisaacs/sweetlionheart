@@ -41,7 +41,7 @@
     "roots/wordpress": "5.4",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/wordpress-seo":">=13.5",
+    "wpackagist-plugin/seo-by-rank-math":">=1.0.42.1",
     "wpackagist-plugin/mailchimp":">=1.5.7",
     "wpackagist-theme/hello-elementor":">=2.2.2",
     "wpackagist-plugin/elementor":">=2.9.7",
