@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d3f6889d858b39bfe8bf7a01374ad72",
+    "content-hash": "182631e91792718ceb857d084baf481d",
     "packages": [
         {
             "name": "composer/installers",
@@ -246,10 +246,10 @@
         },
         {
             "name": "gravityforms/gravityforms",
-            "version": "2.4.17.25",
+            "version": "2.4.18",
             "dist": {
                 "type": "zip",
-                "url": "https://www.gravityhelp.com/wp-content/plugins/gravitymanager/api.php?op=get_plugin&slug=gravityforms&key={%WP_PLUGIN_GF_KEY}#v2.4.17.25"
+                "url": "https://www.gravityhelp.com/wp-content/plugins/gravitymanager/api.php?op=get_plugin&slug=gravityforms&key={%wp_plugin_gf_key}#v2.4.18"
             },
             "type": "wordpress-plugin"
         },
@@ -551,16 +551,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.15.0",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
+                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1aab00e39cebaef4d8652497f46c15c1b7e45294",
+                "reference": "1aab00e39cebaef4d8652497f46c15c1b7e45294",
                 "shasum": ""
             },
             "require": {
@@ -572,7 +572,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -605,7 +605,70 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-05-08T16:50:20+00:00"
+        },
+        {
+            "name": "taahirisaacs/gappointments-plugin",
+            "version": "1.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://taahirisaac@github.com/taahirisaacs/gappointments-plugin.git",
+                "reference": "9adaff732699a65f77642056c9e0f676ab0605e5"
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "gAppointments",
+                    "homepage": "http://gappointments.com/"
+                }
+            ],
+            "homepage": "https://github.com/taahirisaacs/gappointments-plugin",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2020-05-10T20:21:45+00:00"
+        },
+        {
+            "name": "taahirisaacs/woocommerce-gravityforms-product-addons-master",
+            "version": "3.3.10",
+            "source": {
+                "type": "git",
+                "url": "https://taahirisaac@github.com/taahirisaacs/woocommerce-gravityforms-product-addons-master.git",
+                "reference": "ec82595d72cb4bc70adbe447e04af25a1041d984"
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Gravity Forms Product Addons"
+                }
+            ],
+            "homepage": "https://github.com/taahir/woocommerce-gravityforms-product-addons-master",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2020-05-11T19:27:10+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -718,6 +781,24 @@
             "homepage": "https://wordpress.org/plugins/mailchimp/"
         },
         {
+            "name": "wpackagist-plugin/powerpack-lite-for-elementor",
+            "version": "1.2.9.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/powerpack-lite-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/powerpack-lite-for-elementor.zip?timestamp=1588831799"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/powerpack-lite-for-elementor/"
+        },
+        {
             "name": "wpackagist-plugin/seo-by-rank-math",
             "version": "1.0.42.3",
             "source": {
@@ -736,34 +817,16 @@
             "homepage": "https://wordpress.org/plugins/seo-by-rank-math/"
         },
         {
-            "name": "wpackagist-plugin/woo-rfq-for-woocommerce",
-            "version": "1.799995",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woo-rfq-for-woocommerce/",
-                "reference": "tags/1.799995"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-rfq-for-woocommerce.1.799995.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woo-rfq-for-woocommerce/"
-        },
-        {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "4.0.1",
+            "version": "4.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/4.0.1"
+                "reference": "tags/4.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.4.0.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.4.1.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -833,12 +896,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "f46390d28af4fdb07c09d9aabf4c4e35149a7a08"
+                "reference": "ec1a75b10126327b351fdea7c2b9bfb94e2f6f35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f46390d28af4fdb07c09d9aabf4c4e35149a7a08",
-                "reference": "f46390d28af4fdb07c09d9aabf4c4e35149a7a08",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ec1a75b10126327b351fdea7c2b9bfb94e2f6f35",
+                "reference": "ec1a75b10126327b351fdea7c2b9bfb94e2f6f35",
                 "shasum": ""
             },
             "conflict": {
@@ -851,6 +914,7 @@
                 "asymmetricrypt/asymmetricrypt": ">=0,<9.9.99",
                 "aws/aws-sdk-php": ">=3,<3.2.1",
                 "bagisto/bagisto": "<0.1.5",
+                "barrelstrength/sprout-base-email": "<3.9",
                 "bolt/bolt": "<3.6.10",
                 "brightlocal/phpwhois": "<=4.2.5",
                 "buddypress/buddypress": "<5.1.2",
@@ -983,7 +1047,7 @@
                 "socalnick/scn-social-auth": "<1.15.2",
                 "spoonity/tcpdf": "<6.2.22",
                 "squizlabs/php_codesniffer": ">=1,<2.8.1|>=3,<3.0.1",
-                "ssddanbrown/bookstack": "<0.25.3",
+                "ssddanbrown/bookstack": "<0.29.2",
                 "stormpath/sdk": ">=0,<9.9.99",
                 "studio-42/elfinder": "<2.1.49",
                 "swiftmailer/swiftmailer": ">=4,<5.4.5",
@@ -1102,7 +1166,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-05-04T14:37:25+00:00"
+            "time": "2020-05-09T00:00:21+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",

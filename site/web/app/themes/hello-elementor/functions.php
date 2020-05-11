@@ -178,3 +178,6 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		}
 	}
 }
+// Remove anchor jump on Gravity Forms
+add_filter( 'gform_confirmation_anchor', '__return_false' );
+add_action( 'gform_pre_submission', 'pre_submission' );

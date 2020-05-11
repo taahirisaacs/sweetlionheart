@@ -10,6 +10,7 @@ vault_wordpress_sites:
   staging.sweetlionheart.com:
     admin_password: 88a3GHf0gP8O9Bne6XdqXtfr85aDSYriXFUGmpAPoh5aLmsZUdHDGOqO3od9JcMz
     env:
+      wp_plugin_gf_key: 3afeaeebbb0af77b92cf50c3aa7efb35
       db_password: anYsJb434hC7kEhg1vfim2rOpcuYhSohyzmssJfCToPwuQtHYetkudSmmKLO57BY
       auth_key: wzFBQerO3IbriEMzdLK4rIZtTMW6tUre7L8V25eLmZfDc57bEzash4EBKeY82R4g
       secure_auth_key: ahjbQfFhG6a8lxNfCyzyTyiVqzKAQcxjKvhgmhoxbkbZ7hZ4H4KAqw8InkRoFA9B

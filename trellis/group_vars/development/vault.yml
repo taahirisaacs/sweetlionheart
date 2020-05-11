@@ -6,6 +6,7 @@ vault_wordpress_sites:
   lh.local:
     admin_password: 9YwQIGHpfRLfP7vNy3fRvOoRLDUREvHdWC3KKvWm9q3lK4r73pIWcg9zgvjaMlQK
     env:
+      wp_plugin_gf_key: 3afeaeebbb0af77b92cf50c3aa7efb35
       db_password: DvqkXThbzL8AdmEezEOJJBu6hBXgabnW87yqSRm4uMp3mRS5gGmjG1BfQZQD4kEV
       auth_key: pk7iw4ezqKi2phzALWEKeKWs10mmhuWLIeErUh8kIhGR7IQ4259QgsmgTc4irIef
       secure_auth_key: Rn62VbTsSfdrF5icgoae3lcBG0z9v1wRJWgggiQlZzCv2uHW8f8X0ZTkXpbEGo1O
