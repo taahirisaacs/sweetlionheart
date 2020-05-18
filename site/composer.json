@@ -58,6 +58,7 @@
     "wpackagist-theme/hello-elementor":">=2.2.2",
     "wpackagist-plugin/elementor":">=2.9.7",
     "wpackagist-plugin/woocommerce":">=4.1.0",
+    "wpackagist-plugin/password-protected":"2.2.5",
     "yangm97/elementor-pro":">=2.9.3",
     "taahirisaacs/gappointments-plugin":">=1.9.3",
     "taahirisaacs/gravity-forms-plugin":">=2.4.18.2",
