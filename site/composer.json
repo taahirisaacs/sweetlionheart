@@ -48,7 +48,7 @@
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "https://www.gravityhelp.com/wp-content/plugins/gravitymanager/api.php?op=get_plugin&slug=gravityforms&key=3afeaeebbb0af77b92cf50c3aa7efb35"
+          "url": "https://www.gravityhelp.com/wp-content/plugins/gravitymanager/api.php?op=get_plugin&slug=gravityforms&key={%wp_plugin_gf_key}"
         }
       }
     }
@@ -70,7 +70,7 @@
     "taahirisaacs/gappointments-plugin":">=1.9.3",
     "taahirisaacs/woocommerce-gravityforms-product-addons-master":">=3.3.10",
     "gotoandplay/gravityforms-composer-installer":"^2.0",
-    "gravityforms/gravityforms": "*",
+    "gravityforms/gravityforms": ">=2.4.18",
     "wpackagist-plugin/powerpack-lite-for-elementor":"1.2.9.4"
   },
   "require-dev": {
