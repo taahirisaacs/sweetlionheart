@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "711956e7bb9cc52a8314d891205c12f7",
+    "content-hash": "0e667c92663a70373af96bd4595f21f4",
     "packages": [
         {
             "name": "composer/installers",
@@ -813,6 +813,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/password-protected/"
+        },
+        {
+            "name": "wpackagist-plugin/post-smtp",
+            "version": "2.0.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/post-smtp/",
+                "reference": "tags/2.0.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-smtp.2.0.12.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/post-smtp/"
         },
         {
             "name": "wpackagist-plugin/powerpack-lite-for-elementor",
