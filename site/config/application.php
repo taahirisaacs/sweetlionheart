@@ -102,6 +102,12 @@ Config::define('DISALLOW_FILE_EDIT', true);
 // Disable plugin and theme updates and installation from the admin
 Config::define('DISALLOW_FILE_MODS', true);
 
+$envs = [
+    'development' => 'http://lh.test',
+    'staging'     => 'https://staging.sweetlionheart.com'
+  ];
+define('ENVIRONMENTS', serialize($envs));
+
 /**
  * Debugging Settings
  */
