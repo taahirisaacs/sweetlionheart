@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1e34d4d1e28be963acf49020bcb07bcc",
+    "content-hash": "ad784a333e7a9d835a227ac49a975335",
     "packages": [
         {
             "name": "composer/installers",
@@ -688,6 +688,25 @@
                 "wordpress"
             ],
             "time": "2020-05-10T20:21:45+00:00"
+        },
+        {
+            "name": "taahirisaacs/gf-zapier",
+            "version": "3.3",
+            "source": {
+                "type": "git",
+                "url": "https://taahirisaacs@github.com/taahirisaacs/gf-zapier.git",
+                "reference": "aa867354908afbd8e6358ff98cf20328368de5ad"
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://github.com/taahirisaacs/gf-zapier",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2020-06-14T08:06:16+00:00"
         },
         {
             "name": "taahirisaacs/gravity-forms-plugin",

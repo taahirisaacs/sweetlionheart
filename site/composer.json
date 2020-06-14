@@ -43,6 +43,10 @@
     {
       "type": "vcs",
       "url": "https://taahirisaacs@github.com/taahirisaacs/gravity-forms-plugin.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://taahirisaacs@github.com/taahirisaacs/gf-zapier.git"
     }
   ],
   "require": {
@@ -61,6 +65,7 @@
     "yangm97/elementor-pro":">=2.9.3",
     "taahirisaacs/gappointments-plugin":">=1.9.3",
     "taahirisaacs/gravity-forms-plugin":">=2.4.18.2",
+    "taahirisaacs/gf-zapier":">=3.3",
     "taahirisaacs/woocommerce-gravityforms-product-addons-master":">=3.3.10",
     "wpackagist-plugin/gravityformscli":"1.2",  
     "gotoandplay/gravityforms-composer-installer":"^2.0",
