@@ -2,19 +2,17 @@
 # Documentation: https://roots.io/trellis/docs/wordpress-sites/
 
 wordpress_sites:
-  lh.local:
+  sweetlionheart.com:
     site_hosts:
-    - canonical: lh.local
-      redirects:
-      - www.lh.local
+    - canonical: sweetlionheart.com
     local_path: ../site
     branch: master
-    repo: git@github.com:example/example.com.git
+    repo: git@github.com:taahirisaacs/sweetlionheart.git
     repo_subtree_path: site
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
       enabled: false

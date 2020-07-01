@@ -7,7 +7,7 @@ vault_users:
   password: c5FbbyMiD43lHJe6vqvOVWaWoDizcVvkUkbVcSFIg6ayyeVbIuoEghTs9cX7DgZ6
   salt: BBMYEQ9ygWeN6ofPB7Pb1lf7qrDTPwSq21KF91JgwKUvfehWQpeAPbq1jvH875dO
 vault_wordpress_sites:
-  lh.local:
+  sweetlionheart.com:
     admin_password: R7hUzr7BXVg91E1JT8aj7dqOM3X4WylYNeEbVdga2uJUYVpWnzowSxNBl3kFCdWx
     env:
       wp_plugin_gf_key: 3afeaeebbb0af77b92cf50c3aa7efb35
