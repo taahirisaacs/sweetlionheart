@@ -69,7 +69,7 @@
     "taahirisaacs/woocommerce-gravityforms-product-addons-master":">=3.3.10",
     "wpackagist-plugin/gravityformscli":"1.2",  
     "gotoandplay/gravityforms-composer-installer":"^2.0",
-    "wpackagist-plugin/powerpack-lite-for-elementor":"1.2.9.4",
+    "wpackagist-plugin/wk-google-analytics":">=1.8.0",
     "wpackagist-plugin/post-smtp":"2.0.12",
     "roots/wp-stage-switcher": "^2.1",
     "wpackagist-plugin/woocommerce-payfast-gateway":"1.4.15"

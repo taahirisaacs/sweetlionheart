@@ -193,3 +193,9 @@ add_filter( 'woocommerce_product_add_to_cart_text', 'cw_btntext_cart' );
 function cw_btntext_cart() {
     return __( 'Purchase', 'woocommerce' );
 }
+
+add_action( 'wp_head', function(){
+    ?>
+    <meta name="p:domain_verify" content="6e15907dd45d109643f4bbbd47e901b1"/>
+    <?php
+});
