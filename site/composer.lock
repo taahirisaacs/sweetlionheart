@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc1d35ae473649baefbe6d88dfca01cb",
+    "content-hash": "04bb584fc46a6a48776c88fafed6c6b9",
     "packages": [
         {
             "name": "composer/installers",
@@ -929,6 +929,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/post-smtp/"
+        },
+        {
+            "name": "wpackagist-plugin/powerpack-lite-for-elementor",
+            "version": "1.2.9.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/powerpack-lite-for-elementor/",
+                "reference": "tags/1.2.9.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/powerpack-lite-for-elementor.1.2.9.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/powerpack-lite-for-elementor/"
         },
         {
             "name": "wpackagist-plugin/seo-by-rank-math",
