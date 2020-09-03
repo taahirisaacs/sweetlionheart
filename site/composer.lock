@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3734b23a9c666d6f8db852f78cb2155e",
+    "content-hash": "52e8466314b30878573b758942b81f0a",
     "packages": [
         {
             "name": "composer/installers",
@@ -673,6 +673,25 @@
             "time": "2020-07-14T12:35:20+00:00"
         },
         {
+            "name": "taahirisaacs/elementor-pro",
+            "version": "2.10.3",
+            "source": {
+                "type": "git",
+                "url": "https://taahirisaacs@github.com/taahirisaacs/elementor-pro.git",
+                "reference": "ed0dc377be18e78c93e3aa9ce63c02390a08895a"
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://github.com/taahirisaacs/elementor",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2020-07-01T05:56:47+00:00"
+        },
+        {
             "name": "taahirisaacs/gappointments-plugin",
             "version": "1.9.3",
             "source": {
@@ -1055,42 +1074,6 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/hello-elementor/"
-        },
-        {
-            "name": "yangm97/elementor-pro",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yangm97/elementor-pro.git",
-                "reference": "f7751e72d4503ddc7ab28881daab12ceaef56fcc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yangm97/elementor-pro/zipball/f7751e72d4503ddc7ab28881daab12ceaef56fcc",
-                "reference": "f7751e72d4503ddc7ab28881daab12ceaef56fcc",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Elementor.com",
-                    "homepage": "https://elementor.com"
-                }
-            ],
-            "description": "It’s about time for a live page builder, with no limits of design. A page builder that delivers high-end page designs and advanced capabilities, never before seen on WordPress. It’s time for Elementor Page Builder.",
-            "homepage": "https://github.com/yangm97/elementor-pro",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/yangm97/elementor-pro/tree/2.9.2",
-                "issues": "https://github.com/yangm97/elementor-pro/issues"
-            },
-            "time": "2020-04-07T15:43:37+00:00"
         }
     ],
     "packages-dev": [

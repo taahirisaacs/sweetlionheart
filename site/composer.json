@@ -51,6 +51,10 @@
     {
       "type": "vcs",
       "url": "https://taahirisaacs@github.com/taahirisaacs/gf-bulk-actions.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://taahirisaacs@github.com/taahirisaacs/elementor-pro.git"
     }
   ],
   "require": {
@@ -66,7 +70,7 @@
     "wpackagist-plugin/elementor":">=2.9.7",
     "wpackagist-plugin/woocommerce":">=4.1.1",
     "wpackagist-plugin/password-protected":"2.2.5",
-    "yangm97/elementor-pro":">=2.9.3",
+    "taahirisaacs/elementor-pro":">=2.10.3",
     "taahirisaacs/gappointments-plugin":">=1.9.3",
     "taahirisaacs/gravity-forms-plugin":">=2.4.18.2",
     "taahirisaacs/gf-zapier":">=3.3",
