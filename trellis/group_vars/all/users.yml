@@ -9,12 +9,14 @@ users:
     keys:
       - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
       - https://github.com/taahirisaacs.keys
+      - https://github.com/fluxfullcircle.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
       - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
       - https://github.com/taahirisaacs.keys
+      - https://github.com/fluxfullcircle.keys
 
 web_user: web
 web_group: www-data

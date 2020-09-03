@@ -182,11 +182,11 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 add_filter( 'gform_confirmation_anchor', '__return_true' );
 
 //Send user straight to checkout
-add_filter( 'woocommerce_add_to_cart_redirect', 'skip_woo_cart' );
+// add_filter( 'woocommerce_add_to_cart_redirect', 'skip_woo_cart' );
  
-function skip_woo_cart() {
-   return wc_get_checkout_url();
-} 
+// function skip_woo_cart() {
+//    return wc_get_checkout_url();
+// } 
 
 add_filter( 'woocommerce_product_single_add_to_cart_text', 'cw_btntext_cart' );
 add_filter( 'woocommerce_product_add_to_cart_text', 'cw_btntext_cart' );
