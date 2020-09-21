@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b39f02104a5c1cb4ac1db056d9d31893",
+    "content-hash": "3751f0cf5fb63e9081ff6149b87fdbe2",
     "packages": [
         {
             "name": "composer/installers",
@@ -778,6 +778,30 @@
                 "wordpress"
             ],
             "time": "2020-05-18T08:52:41+00:00"
+        },
+        {
+            "name": "taahirisaacs/woocommerce-gateway-snapscan",
+            "version": "1.1.10",
+            "source": {
+                "type": "git",
+                "url": "https://taahirisaacs@github.com/taahirisaacs/woocommerce-gateway-snapscan.git",
+                "reference": "7577be177dec965016fe997547c8de4be54b56c6"
+            },
+            "archive": {
+                "exclude": [
+                    "!/assets"
+                ]
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "SnapScan allows South African customers to check out quicker and more securely with a scan or tap via card details stored on their phone.",
+            "homepage": "https://github.com/taahir/products/woocommerce-gateway-snapscan/",
+            "time": "2020-09-21T07:06:46+00:00"
         },
         {
             "name": "taahirisaacs/woocommerce-gravityforms-product-addons-master",

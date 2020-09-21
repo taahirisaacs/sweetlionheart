@@ -55,6 +55,10 @@
     {
       "type": "vcs",
       "url": "https://taahirisaacs@github.com/taahirisaacs/elementor-pro.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://taahirisaacs@github.com/taahirisaacs/woocommerce-gateway-snapscan.git"
     }
   ],
   "require": {
@@ -75,6 +79,7 @@
     "taahirisaacs/gravity-forms-plugin":">=2.4.18.2",
     "taahirisaacs/gf-zapier":">=3.3",
     "taahirisaacs/gf-bulk-actions":">=1.2.27",
+    "taahirisaacs/woocommerce-gateway-snapscan":">=1.1.10",
     "taahirisaacs/woocommerce-gravityforms-product-addons-master":">=3.3.10",
     "wpackagist-plugin/gravityformscli":"1.2",  
     "gotoandplay/gravityforms-composer-installer":"^2.0",
