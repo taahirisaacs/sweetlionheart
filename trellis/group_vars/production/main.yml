@@ -1,1 +1,5 @@
 mysql_root_password: "{{ vault_mysql_root_password }}" # Define this variable in group_vars/production/vault.yml
+php_memory_limit: 256M
+php_post_max_size: 32M
+php_upload_max_filesize: 32M
+php_max_execution_time: 120
