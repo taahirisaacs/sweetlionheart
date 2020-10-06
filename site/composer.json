@@ -59,6 +59,10 @@
     {
       "type": "vcs",
       "url": "https://taahirisaacs@github.com/taahirisaacs/woocommerce-gateway-snapscan.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://taahirisaacs@github.com/taahirisaacs/acf-pro.git"
     }
   ],
   "require": {
@@ -81,10 +85,11 @@
     "taahirisaacs/gf-bulk-actions":">=1.2.27",
     "taahirisaacs/woocommerce-gateway-snapscan":">=1.1.10",
     "taahirisaacs/woocommerce-gravityforms-product-addons-master":">=3.3.10",
+    "taahirisaacs/acf-pro":">=5.8.12",
     "wpackagist-plugin/gravityformscli":"1.2",  
     "gotoandplay/gravityforms-composer-installer":"^2.0",
     "wpackagist-plugin/wk-google-analytics":">=1.8.0",
-    "wpackagist-plugin/post-smtp":"2.0.12",
+    "wpackagist-plugin/post-smtp":">=2.0.12",
     "roots/wp-stage-switcher": "^2.1",
     "wpackagist-plugin/powerpack-lite-for-elementor":"1.2.9.5",
     "wpackagist-plugin/woocommerce-payfast-gateway":"1.4.15",
