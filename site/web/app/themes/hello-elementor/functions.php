@@ -205,11 +205,89 @@ add_action( 'wp_head', function(){
 	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 	document,'script','//connect.facebook.net/en_US/fbevents.js');
 
-	fbq('init', '267776287170318');
+	fbq('init', '755488865292476');
 	fbq('track', 'PageView');</script>
 	<noscript><img height='1' width='1' style='display:none'
-	src='https://www.facebook.com/tr?id=267776287170318/&ev=PageView&noscript=1'
+	src='https://www.facebook.com/tr?id=755488865292476/&ev=PageView&noscript=1'
 	/></noscript>
 	<!-- End Facebook Pixel Code -->
 	<?php
 });
+
+add_action( 'init', 'cake_flavours' );
+function cake_flavours() {
+	$args = [
+		'label'  => esc_html__( 'Flavours', 'flavour' ),
+		'labels' => [
+			'menu_name'          => esc_html__( 'Flavours', 'flavour' ),
+			'name_admin_bar'     => esc_html__( 'Flavour', 'flavour' ),
+			'add_new'            => esc_html__( 'Add Flavour', 'flavour' ),
+			'add_new_item'       => esc_html__( 'Add new Flavour', 'flavour' ),
+			'new_item'           => esc_html__( 'New Flavour', 'flavour' ),
+			'edit_item'          => esc_html__( 'Edit Flavour', 'flavour' ),
+			'view_item'          => esc_html__( 'View Flavour', 'flavour' ),
+			'update_item'        => esc_html__( 'View Flavour', 'flavour' ),
+			'all_items'          => esc_html__( 'All Flavours', 'flavour' ),
+			'search_items'       => esc_html__( 'Search Flavours', 'flavour' ),
+			'parent_item_colon'  => esc_html__( 'Parent Flavour', 'flavour' ),
+			'not_found'          => esc_html__( 'No Flavours found', 'flavour' ),
+			'not_found_in_trash' => esc_html__( 'No Flavours found in Trash', 'flavour' ),
+			'name'               => esc_html__( 'Flavours', 'flavour' ),
+			'singular_name'      => esc_html__( 'Flavour', 'flavour' ),
+		],
+		'public'              => true,
+		'exclude_from_search' => false,
+		'publicly_queryable'  => true,
+		'show_ui'             => true,
+		'show_in_nav_menus'   => true,
+		'show_in_admin_bar'   => true,
+		'show_in_rest'        => true,
+		'capability_type'     => 'post',
+		'hierarchical'        => false,
+		'has_archive'         => true,
+		'query_var'           => true,
+		'can_export'          => true,
+		'rewrite_no_front'    => false,
+		'show_in_menu'        => true,
+		'supports' => [
+			'title',
+			'editor',
+			'thumbnail',
+		],
+		
+		'rewrite' => true
+	];
+
+	register_post_type( 'flavour', $args );
+}
+
+// add_filter( 'gform_pre_render', 'populate_posts' );
+// add_filter( 'gform_pre_validation', 'populate_posts' );
+// add_filter( 'gform_pre_submission_filter', 'populate_posts' );
+// add_filter( 'gform_admin_pre_render', 'populate_posts' );
+// function populate_posts( $form ) {
+ 
+//     foreach ( $form['fields'] as $field ) {
+ 
+//         if ( $field->type != 'select' || strpos( $field->cssClass, 'populate-posts' ) === false ) {
+//             continue;
+//         }
+ 
+//         // you can add additional parameters here to alter the posts that are retrieved
+//         // more info: http://codex.wordpress.org/Template_Tags/get_posts
+//         $posts = get_posts( 'post_type=flavour&numberposts=-1&post_status=publish' );
+ 
+//         $choices = array();
+ 
+//         foreach ( $posts as $post ) {
+//             $choices[] = array( 'text' => $post->post_title, 'value' => $post->post_title);
+//         }
+ 
+//         // update 'Select a Post' to whatever you'd like the instructive option to be
+//         $field->placeholder = 'Select a Flavour';
+//         $field->choices = $choices;
+ 
+//     }
+ 
+//     return $form;
+// }
