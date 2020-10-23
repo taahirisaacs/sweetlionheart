@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e08f4fff6348d032cc4550afcbe089ea",
+    "content-hash": "66f52fbab8a65aff3fd190f2d1577845",
     "packages": [
         {
             "name": "composer/installers",
@@ -992,6 +992,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/gravityformscli/"
+        },
+        {
+            "name": "wpackagist-plugin/leadin",
+            "version": "7.45.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/leadin/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/leadin.zip?timestamp=1603201231"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/leadin/"
         },
         {
             "name": "wpackagist-plugin/password-protected",
