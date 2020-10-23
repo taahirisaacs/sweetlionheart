@@ -261,33 +261,74 @@ function cake_flavours() {
 	register_post_type( 'flavour', $args );
 }
 
-// add_filter( 'gform_pre_render', 'populate_posts' );
-// add_filter( 'gform_pre_validation', 'populate_posts' );
-// add_filter( 'gform_pre_submission_filter', 'populate_posts' );
-// add_filter( 'gform_admin_pre_render', 'populate_posts' );
-// function populate_posts( $form ) {
+/**
+ * Custom Taxonomy for Offers/Campaigns
+ */
+add_action( 'init', 'create_my_taxonomies', 0 );
+function create_my_taxonomies() {
+	register_taxonomy(
+		'category_flavours',
+		'flavour',
+		array(
+			'labels' => array(
+				'name' => 'Category',
+				'add_new_item' => 'Add New Category',
+				'new_item_name' => "New Category"
+			),
+			'show_ui' => true,
+			'show_tagcloud' => false,
+			'hierarchical' => true
+		)
+	);
+}
+
+add_filter( 'gform_pre_render', 'populate_posts' );
+add_filter( 'gform_pre_validation', 'populate_posts' );
+add_filter( 'gform_pre_submission_filter', 'populate_posts' );
+add_filter( 'gform_admin_pre_render', 'populate_posts' );
+function populate_posts( $form ) {
  
-//     foreach ( $form['fields'] as $field ) {
+    foreach ( $form['fields'] as $field ) {
  
-//         if ( $field->type != 'select' || strpos( $field->cssClass, 'populate-posts' ) === false ) {
-//             continue;
-//         }
+        if ( $field->type != 'product' || $field->inputName == 'populate' || strpos( $field->cssClass, 'green' ) === false ) {
+            // you can add additional parameters here to alter the posts that are retrieved
+		// more info: http://codex.wordpress.org/Template_Tags/get_posts
+		$options = array(
+			'post_type' => 'flavour',
+			'numberposts' => -1,
+			'post_status' => 'publish',
+			'tax_query' => array(
+				array(
+					'taxonomy' => 'category_flavours', // Here I have set dummy taxonomy name like "taxonomy_cat" but you must be set current taxonomy name of annoucements post type. 
+					'field' => 'name',
+					'terms' => 'green'
+				)
+			)
+		);
+
+        $posts = get_posts( $options );
  
-//         // you can add additional parameters here to alter the posts that are retrieved
-//         // more info: http://codex.wordpress.org/Template_Tags/get_posts
-//         $posts = get_posts( 'post_type=flavour&numberposts=-1&post_status=publish' );
+        $choices = array();
  
-//         $choices = array();
+        foreach ( $posts as $post ) {
+            $choices[] = array( 'text' => $post->post_title, 'value' => $post->post_title, 'price' => $post->post_content);
+        }
  
-//         foreach ( $posts as $post ) {
-//             $choices[] = array( 'text' => $post->post_title, 'value' => $post->post_title);
-//         }
+        // update 'Select a Post' to whatever you'd like the instructive option to be
+        $field->placeholder = 'Select a Flavour';
+        $field->choices = $choices;
+        }
  
-//         // update 'Select a Post' to whatever you'd like the instructive option to be
-//         $field->placeholder = 'Select a Flavour';
-//         $field->choices = $choices;
+    }
  
-//     }
- 
-//     return $form;
-// }
+    return $form;
+}
+/**
+ * Filter to change the Rank Math schema data for Product.
+ * @param array $entity
+ * @return array
+ */
+add_filter('rank_math/snippet/rich_snippet_product_entity', function ($entity) {
+    $entity['@id'] = get_permalink().'#product';
+    return $entity;
+});
