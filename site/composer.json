@@ -67,6 +67,10 @@
     {
       "type": "vcs",
       "url": "https://taahirisaacs@github.com/taahirisaacs/gf-payfast.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://taahirisaacs@github.com/fluxfullcircle/gf-hubspot.git"
     }
   ],
   "require": {

@@ -282,47 +282,47 @@ function create_my_taxonomies() {
 	);
 }
 
-add_filter( 'gform_pre_render', 'populate_posts' );
-add_filter( 'gform_pre_validation', 'populate_posts' );
-add_filter( 'gform_pre_submission_filter', 'populate_posts' );
-add_filter( 'gform_admin_pre_render', 'populate_posts' );
-function populate_posts( $form ) {
+// add_filter( 'gform_pre_render', 'populate_posts' );
+// add_filter( 'gform_pre_validation', 'populate_posts' );
+// add_filter( 'gform_pre_submission_filter', 'populate_posts' );
+// add_filter( 'gform_admin_pre_render', 'populate_posts' );
+// function populate_posts( $form ) {
  
-    foreach ( $form['fields'] as $field ) {
+//     foreach ( $form['fields'] as $field ) {
  
-        if ( $field->type != 'product' || $field->inputName == 'populate' || strpos( $field->cssClass, 'green' ) === false ) {
-            // you can add additional parameters here to alter the posts that are retrieved
-		// more info: http://codex.wordpress.org/Template_Tags/get_posts
-		$options = array(
-			'post_type' => 'flavour',
-			'numberposts' => -1,
-			'post_status' => 'publish',
-			'tax_query' => array(
-				array(
-					'taxonomy' => 'category_flavours', // Here I have set dummy taxonomy name like "taxonomy_cat" but you must be set current taxonomy name of annoucements post type. 
-					'field' => 'name',
-					'terms' => 'green'
-				)
-			)
-		);
+//         if ( $field->type != 'product' || $field->inputName == 'populate' || strpos( $field->cssClass, 'green' ) === false ) {
+//             // you can add additional parameters here to alter the posts that are retrieved
+// 		// more info: http://codex.wordpress.org/Template_Tags/get_posts
+// 		$options = array(
+// 			'post_type' => 'flavour',
+// 			'numberposts' => -1,
+// 			'post_status' => 'publish',
+// 			'tax_query' => array(
+// 				array(
+// 					'taxonomy' => 'category_flavours', // Here I have set dummy taxonomy name like "taxonomy_cat" but you must be set current taxonomy name of annoucements post type. 
+// 					'field' => 'name',
+// 					'terms' => 'green'
+// 				)
+// 			)
+// 		);
 
-        $posts = get_posts( $options );
+//         $posts = get_posts( $options );
  
-        $choices = array();
+//         $choices = array();
  
-        foreach ( $posts as $post ) {
-            $choices[] = array( 'text' => $post->post_title, 'value' => $post->post_title, 'price' => $post->post_content);
-        }
+//         foreach ( $posts as $post ) {
+//             $choices[] = array( 'text' => $post->post_title, 'value' => $post->post_title, 'price' => $post->post_content);
+//         }
  
-        // update 'Select a Post' to whatever you'd like the instructive option to be
-        $field->placeholder = 'Select a Flavour';
-        $field->choices = $choices;
-        }
+//         // update 'Select a Post' to whatever you'd like the instructive option to be
+//         $field->placeholder = 'Select a Flavour';
+//         $field->choices = $choices;
+//         }
  
-    }
+//     }
  
-    return $form;
-}
+//     return $form;
+// }
 /**
  * Filter to change the Rank Math schema data for Product.
  * @param array $entity
