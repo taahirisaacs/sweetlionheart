@@ -95,6 +95,7 @@
     "taahirisaacs/woocommerce-gravityforms-product-addons-master":">=3.3.10",
     "taahirisaacs/acf-pro":">=5.8.12",
     "taahirisaacs/gf-payfast":"1.9",
+    "fluxfullcircle/gf-hubspot":"1.5.1",
     "wpackagist-plugin/gravityformscli":"1.2",  
     "gotoandplay/gravityforms-composer-installer":"^2.0",
     "wpackagist-plugin/wk-google-analytics":">=1.8.0",

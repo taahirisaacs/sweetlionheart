@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a40f7e4d135d5a352f9781cae517323a",
+    "content-hash": "2c1212dd56adcd3a29f1f579e79f7f8a",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,6 +187,25 @@
                 "wp"
             ],
             "time": "2020-02-20T18:46:16+00:00"
+        },
+        {
+            "name": "fluxfullcircle/gf-hubspot",
+            "version": "1.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://taahirisaacs@github.com/fluxfullcircle/gf-hubspot.git",
+                "reference": "84f9d31319d8b8aa9e186d45645cc125c3513022"
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://github.com/fluxfullcircle/gf-hubspot",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2020-10-23T16:53:21+00:00"
         },
         {
             "name": "gotoandplay/gravityforms-composer-installer",
