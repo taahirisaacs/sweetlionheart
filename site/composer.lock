@@ -751,11 +751,11 @@
         },
         {
             "name": "taahirisaacs/gappointments-plugin",
-            "version": "1.9.3",
+            "version": "1.9.5.1",
             "source": {
                 "type": "git",
                 "url": "https://taahirisaac@github.com/taahirisaacs/gappointments-plugin.git",
-                "reference": "9adaff732699a65f77642056c9e0f676ab0605e5"
+                "reference": "bb9b9857425db721f1ab75bad194dabf8444af47"
             },
             "require": {
                 "php": ">=7.1"
@@ -772,7 +772,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2020-05-10T20:21:45+00:00"
+            "time": "2021-01-02T10:43:08+00:00"
         },
         {
             "name": "taahirisaacs/gf-bulk-actions",
@@ -998,15 +998,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.0.14",
+            "version": "3.0.15",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.0.14"
+                "reference": "tags/3.0.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.0.14.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.0.15.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1070,15 +1070,15 @@
         },
         {
             "name": "wpackagist-plugin/post-smtp",
-            "version": "2.0.15",
+            "version": "2.0.16",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/post-smtp/",
-                "reference": "tags/2.0.15"
+                "reference": "tags/2.0.16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-smtp.2.0.15.zip"
+                "url": "https://downloads.wordpress.org/plugin/post-smtp.2.0.16.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1106,15 +1106,15 @@
         },
         {
             "name": "wpackagist-plugin/seo-by-rank-math",
-            "version": "1.0.54.1",
+            "version": "1.0.55",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/seo-by-rank-math/",
-                "reference": "tags/1.0.54.1"
+                "reference": "tags/1.0.55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.54.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.55.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1238,12 +1238,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "d5961914bf7f90e81af509b81e51450bff419815"
+                "reference": "a2c04f857299a7119e96448249a9dd5954e099c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/d5961914bf7f90e81af509b81e51450bff419815",
-                "reference": "d5961914bf7f90e81af509b81e51450bff419815",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a2c04f857299a7119e96448249a9dd5954e099c1",
+                "reference": "a2c04f857299a7119e96448249a9dd5954e099c1",
                 "shasum": ""
             },
             "conflict": {
@@ -1377,7 +1377,7 @@
                 "phpmussel/phpmussel": ">=1,<1.6",
                 "phpmyadmin/phpmyadmin": "<4.9.6|>=5,<5.0.3",
                 "phpoffice/phpexcel": "<1.8.2",
-                "phpoffice/phpspreadsheet": "<1.8",
+                "phpoffice/phpspreadsheet": "<1.16",
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
@@ -1400,8 +1400,8 @@
                 "scheb/two-factor-bundle": ">=0,<3.26|>=4,<4.11",
                 "sensiolabs/connect": "<4.2.3",
                 "serluck/phpwhois": "<=4.2.6",
-                "shopware/core": "<=6.3.2",
-                "shopware/platform": "<=6.3.2",
+                "shopware/core": "<=6.3.4",
+                "shopware/platform": "<=6.3.4",
                 "shopware/shopware": "<5.6.9",
                 "silverstripe/admin": ">=1.0.3,<1.0.4|>=1.1,<1.1.1",
                 "silverstripe/assets": ">=1,<1.4.7|>=1.5,<1.5.2",
@@ -1547,7 +1547,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-08T15:02:56+00:00"
+            "time": "2020-12-31T19:24:22+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
