@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a30487cb3b3e2e59901cb3d03d83d16",
+    "content-hash": "518e9244a756f138ab47e47b312f6afe",
     "packages": [
         {
             "name": "composer/installers",
@@ -134,69 +134,6 @@
             "time": "2020-04-07T06:57:05+00:00"
         },
         {
-            "name": "ffraenz/private-composer-installer",
-            "version": "v5.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ffraenz/private-composer-installer.git",
-                "reference": "8655e3da4e8f99203f13ccca33b9ab953ad30a31"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ffraenz/private-composer-installer/zipball/8655e3da4e8f99203f13ccca33b9ab953ad30a31",
-                "reference": "8655e3da4e8f99203f13ccca33b9ab953ad30a31",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0 || ^2.0",
-                "php": "^7.1 || ^8.0",
-                "vlucas/phpdotenv": "^4.1 || ^5.2"
-            },
-            "require-dev": {
-                "composer/composer": "^1.0 || ^2.0",
-                "laminas/laminas-coding-standard": "^2.0",
-                "symfony/phpunit-bridge": "^5.1",
-                "symfony/process": "^4.4 || ^5.1"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "FFraenz\\PrivateComposerInstaller\\Plugin",
-                "plugin-modifies-downloads": true
-            },
-            "autoload": {
-                "psr-4": {
-                    "FFraenz\\PrivateComposerInstaller\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fränz Friederes",
-                    "email": "fraenz@frieder.es",
-                    "homepage": "https://fraenz.frieder.es"
-                }
-            ],
-            "description": "A composer install helper for private packages",
-            "keywords": [
-                "composer",
-                "env",
-                "plugin",
-                "private",
-                "wordpress",
-                "wp"
-            ],
-            "funding": [
-                {
-                    "url": "https://github.com/ffraenz",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-10-30T09:35:33+00:00"
-        },
-        {
             "name": "fluxfullcircle/gf-hubspot",
             "version": "1.5.1",
             "source": {
@@ -214,63 +151,6 @@
                 "wordpress"
             ],
             "time": "2020-10-23T16:53:21+00:00"
-        },
-        {
-            "name": "gotoandplay/gravityforms-composer-installer",
-            "version": "v2.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/gtap-dev/gravityforms-composer-installer.git",
-                "reference": "00b70f94660f7819aa3746cc7f96f4a85bf1977c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/gtap-dev/gravityforms-composer-installer/zipball/00b70f94660f7819aa3746cc7f96f4a85bf1977c",
-                "reference": "00b70f94660f7819aa3746cc7f96f4a85bf1977c",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0 || ^2.0",
-                "ffraenz/private-composer-installer": "^5.0",
-                "php": "^7.1 || ^8.0"
-            },
-            "require-dev": {
-                "composer/composer": "^1.0 || ^2.0",
-                "phpunit/phpunit": "^8.0",
-                "zendframework/zend-coding-standard": "^1.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "gotoAndDev\\GravityFormsComposerInstaller\\Plugin",
-                "plugin-modifies-downloads": true
-            },
-            "autoload": {
-                "psr-4": {
-                    "gotoAndDev\\GravityFormsComposerInstaller\\": "src/GravityFormsComposerInstaller"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mihkel Eidast",
-                    "email": "mihkel@play.ee",
-                    "homepage": "https://play.ee"
-                }
-            ],
-            "description": "A composer install helper for Gravity Forms",
-            "keywords": [
-                "composer",
-                "env",
-                "gravityforms",
-                "plugin",
-                "private",
-                "wordpress",
-                "wp"
-            ],
-            "time": "2020-11-02T18:05:49+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -979,6 +859,24 @@
             "time": "2020-07-14T19:22:52+00:00"
         },
         {
+            "name": "wpackagist-plugin/code-snippets",
+            "version": "2.14.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/code-snippets/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/code-snippets.zip?timestamp=1606769686"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/code-snippets/"
+        },
+        {
             "name": "wpackagist-plugin/duplicate-post",
             "version": "3.2.5",
             "source": {
@@ -1013,24 +911,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/elementor/"
-        },
-        {
-            "name": "wpackagist-plugin/gravityformscli",
-            "version": "1.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/gravityformscli/",
-                "reference": "tags/1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gravityformscli.1.2.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/gravityformscli/"
         },
         {
             "name": "wpackagist-plugin/leadin",
