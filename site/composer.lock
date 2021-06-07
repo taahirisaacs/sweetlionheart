@@ -650,11 +650,11 @@
         },
         {
             "name": "taahirisaacs/gappointments-plugin",
-            "version": "1.9.5.1",
+            "version": "1.9.5.2",
             "source": {
                 "type": "git",
                 "url": "https://taahirisaac@github.com/taahirisaacs/gappointments-plugin.git",
-                "reference": "bb9b9857425db721f1ab75bad194dabf8444af47"
+                "reference": "f032b0a08259d375969aec7d7cf38fa75011c4ea"
             },
             "require": {
                 "php": ">=7.1"
@@ -671,7 +671,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2021-01-02T10:43:08+00:00"
+            "time": "2021-06-07T14:40:57+00:00"
         },
         {
             "name": "taahirisaacs/gf-bulk-actions",
