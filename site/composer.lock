@@ -631,11 +631,11 @@
         },
         {
             "name": "taahirisaacs/elementor-pro",
-            "version": "3.0.10",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://taahirisaacs@github.com/taahirisaacs/elementor-pro.git",
-                "reference": "74751344c3c92b91d53a203050961dbcfa1ee4a0"
+                "reference": "ee3555a4031f28d478d2e5928f623f05f7b0c1c7"
             },
             "require": {
                 "php": ">=7.1"
@@ -646,7 +646,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2021-01-26T10:34:50+00:00"
+            "time": "2021-06-10T11:44:40+00:00"
         },
         {
             "name": "taahirisaacs/gappointments-plugin",
