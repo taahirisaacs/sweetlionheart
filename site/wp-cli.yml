@@ -1,3 +1,10 @@
 path: web/wp
 server:
   docroot: web
+
+@production:
+  ssh: "web@134.122.80.248:22"
+  path: "/srv/www/sweetlionheart.com/current/web/wp"
+@staging:
+  ssh: "web@134.122.74.134:22"
+  path: "/srv/www/staging.sweetlionheart.com/current/web/wp"
