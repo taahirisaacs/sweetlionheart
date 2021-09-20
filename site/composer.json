@@ -110,6 +110,7 @@
     "wpackagist-plugin/code-snippets":">=2.14.0",
     "wpackagist-plugin/ele-custom-skin":"3.0.0",
     "wpackagist-plugin/woocommerce-advanced-free-shipping":"1.1.4",
+    "wpackagist-plugin/flexible-product-fields":">=1.7.5",
     "fluxfullcircle/gf-hubspot":"1.5.1",
     "taahirisaacs/elementor-pro":">=2.10.3",
     "taahirisaacs/gravity-forms-plugin":">=2.4.18.2",
