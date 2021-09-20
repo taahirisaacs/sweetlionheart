@@ -75,6 +75,14 @@
     {
       "type": "vcs",
       "url": "https://taahirisaacs@github.com/taahirisaacs/snapscan.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://taahirisaacs@github.com/taahirisaacs/flexible-product-fields-pro.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://taahirisaacs@github.com/taahirisaacs/delivery-slots-premium.git"
     }
   ],
   "require": {
@@ -82,15 +90,15 @@
     "composer/installers": "^1.8",
     "vlucas/phpdotenv": "^4.1.3",
     "oscarotero/env": "^1.2.0",
-    "roots/wordpress": "5.7.2",
+    "roots/wordpress": "5.8",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/wp-stage-switcher": "^2.1",
     "wpackagist-plugin/seo-by-rank-math":">=1.0.42.1",
-    "wpackagist-theme/hello-elementor":"2.3.0",
+    "wpackagist-theme/hello-elementor":">=2.3.0",
     "wpackagist-plugin/elementor":">=2.9.7",
     "wpackagist-plugin/woocommerce":">=4.1.1",
-    "wpackagist-plugin/password-protected":"2.2.5",
+    "wpackagist-plugin/password-protected":">=2.2.5",
     "wpackagist-plugin/wk-google-analytics":">=1.8.0",
     "wpackagist-plugin/post-smtp":">=2.0.12",
     "wpackagist-plugin/powerpack-lite-for-elementor":"1.2.9.5",
@@ -99,12 +107,11 @@
     "wpackagist-plugin/yoco-payment-gateway":"1.42",
     "wpackagist-plugin/webappick-product-feed-for-woocommerce":"4.0.7",
     "wpackagist-plugin/leadin":"7.45.6",
-    "wpackagist-plugin/code-snippets":"2.14.0",
+    "wpackagist-plugin/code-snippets":">=2.14.0",
     "wpackagist-plugin/ele-custom-skin":"3.0.0",
     "wpackagist-plugin/woocommerce-advanced-free-shipping":"1.1.4",
     "fluxfullcircle/gf-hubspot":"1.5.1",
     "taahirisaacs/elementor-pro":">=2.10.3",
-    "taahirisaacs/gappointments-plugin":">=1.9.3",
     "taahirisaacs/gravity-forms-plugin":">=2.4.18.2",
     "taahirisaacs/gf-zapier":">=3.3",
     "taahirisaacs/gf-bulk-actions":">=1.2.27",
@@ -112,7 +119,9 @@
     "taahirisaacs/woocommerce-gravityforms-product-addons-master":">=3.3.10",
     "taahirisaacs/acf-pro":">=5.8.12",
     "taahirisaacs/gf-payfast":"1.9",
-    "taahirisaacs/snapscan":"1.4"
+    "taahirisaacs/snapscan":"1.4",
+    "taahirisaacs/delivery-slots-premium":">=1.14.0",
+    "taahirisaacs/flexible-product-fields-pro":">=1.8.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.4",
