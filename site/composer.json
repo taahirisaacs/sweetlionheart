@@ -66,10 +66,6 @@
     },
     {
       "type": "vcs",
-      "url": "https://taahirisaacs@github.com/taahirisaacs/gf-payfast.git"
-    },
-    {
-      "type": "vcs",
       "url": "https://taahirisaacs@github.com/fluxfullcircle/gf-hubspot.git"
     },
     {
@@ -111,15 +107,15 @@
     "wpackagist-plugin/ele-custom-skin":"3.0.0",
     "wpackagist-plugin/woocommerce-advanced-free-shipping":"1.1.4",
     "wpackagist-plugin/flexible-product-fields":">=1.7.5",
+    "wpackagist-plugin/conditional-shipping-for-woocommerce":">=2.2.0",
     "fluxfullcircle/gf-hubspot":"1.5.1",
+    "taahirisaacs/gappointments-plugin":">=1.9.3",
     "taahirisaacs/elementor-pro":">=2.10.3",
     "taahirisaacs/gravity-forms-plugin":">=2.4.18.2",
     "taahirisaacs/gf-zapier":">=3.3",
     "taahirisaacs/gf-bulk-actions":">=1.2.27",
     "taahirisaacs/woocommerce-gateway-snapscan":">=1.1.10",
-    "taahirisaacs/woocommerce-gravityforms-product-addons-master":">=3.3.10",
     "taahirisaacs/acf-pro":">=5.8.12",
-    "taahirisaacs/gf-payfast":"1.9",
     "taahirisaacs/snapscan":"1.4",
     "taahirisaacs/delivery-slots-premium":">=1.14.0",
     "taahirisaacs/flexible-product-fields-pro":">=1.8.3"
