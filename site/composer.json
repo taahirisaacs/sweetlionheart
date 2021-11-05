@@ -123,7 +123,9 @@
     "taahirisaacs/snapscan":"1.4",
     "taahirisaacs/delivery-slots-premium":">=1.14.0",
     "taahirisaacs/flexible-product-fields-pro":">=1.8.3",
-    "taahirisaacs/woo-conditional-shipping-pro":"dev-master"
+    "taahirisaacs/woo-conditional-shipping-pro":"dev-master",
+    "wpackagist-plugin/cities-shipping-zones-for-woocommerce":"1.1.4",
+    "wpackagist-plugin/woo-checkout-field-editor-pro":"1.5.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.4",

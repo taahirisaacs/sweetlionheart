@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aaf5ac0a4be431111bf94e667affb200",
+    "content-hash": "edc842c6e5a83753687ab32a6497fd79",
     "packages": [
         {
             "name": "composer/installers",
@@ -926,6 +926,24 @@
             "time": "2021-10-02T19:17:08+00:00"
         },
         {
+            "name": "wpackagist-plugin/cities-shipping-zones-for-woocommerce",
+            "version": "1.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cities-shipping-zones-for-woocommerce/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cities-shipping-zones-for-woocommerce.zip?timestamp=1634723749"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cities-shipping-zones-for-woocommerce/"
+        },
+        {
             "name": "wpackagist-plugin/code-snippets",
             "version": "2.14.2",
             "source": {
@@ -1158,6 +1176,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wk-google-analytics/"
+        },
+        {
+            "name": "wpackagist-plugin/woo-checkout-field-editor-pro",
+            "version": "1.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woo-checkout-field-editor-pro/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1633686481"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woo-checkout-field-editor-pro/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
