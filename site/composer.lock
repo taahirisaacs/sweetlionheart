@@ -680,11 +680,11 @@
         },
         {
             "name": "taahirisaacs/flexible-product-fields-pro",
-            "version": "1.8.3",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://taahirisaacs@github.com/taahirisaacs/flexible-product-fields-pro.git",
-                "reference": "c2ba639c155a80215fef732eef016abe45e3952d"
+                "reference": "63c368351d70870932d31c211d6ec22f86cd164e"
             },
             "require": {
                 "php": ">=7.1"
@@ -695,7 +695,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2021-09-20T13:22:50+00:00"
+            "time": "2021-11-05T19:31:48+00:00"
         },
         {
             "name": "taahirisaacs/gappointments-plugin",
