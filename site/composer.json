@@ -79,6 +79,10 @@
     {
       "type": "vcs",
       "url": "https://taahirisaacs@github.com/taahirisaacs/delivery-slots-premium.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://taahirisaacs@github.com/taahirisaacs/woo-conditional-shipping-pro.git"
     }
   ],
   "require": {
@@ -118,7 +122,8 @@
     "taahirisaacs/acf-pro":">=5.8.12",
     "taahirisaacs/snapscan":"1.4",
     "taahirisaacs/delivery-slots-premium":">=1.14.0",
-    "taahirisaacs/flexible-product-fields-pro":">=1.8.3"
+    "taahirisaacs/flexible-product-fields-pro":">=1.8.3",
+    "taahirisaacs/woo-conditional-shipping-pro":"dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.4",

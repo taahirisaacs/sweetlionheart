@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c52a2d53346c696d245d9dcff2849d01",
+    "content-hash": "aaf5ac0a4be431111bf94e667affb200",
     "packages": [
         {
             "name": "composer/installers",
@@ -495,20 +495,20 @@
         },
         {
             "name": "roots/wp-stage-switcher",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wp-stage-switcher.git",
-                "reference": "c8bffa5a5d757437112f32833fb9e28dcbfecafe"
+                "reference": "f31148e3435b5d6bcf08ec8f8378aff3c00adc8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/wp-stage-switcher/zipball/c8bffa5a5d757437112f32833fb9e28dcbfecafe",
-                "reference": "c8bffa5a5d757437112f32833fb9e28dcbfecafe",
+                "url": "https://api.github.com/repos/roots/wp-stage-switcher/zipball/f31148e3435b5d6bcf08ec8f8378aff3c00adc8a",
+                "reference": "f31148e3435b5d6bcf08ec8f8378aff3c00adc8a",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "~1.0",
+                "composer/installers": "~1.0 || ~2.0",
                 "php": ">=5.4.0"
             },
             "type": "wordpress-plugin",
@@ -518,14 +518,14 @@
             ],
             "authors": [
                 {
-                    "name": "Scott Walkinshaw",
-                    "email": "scott.walkinshaw@gmail.com",
-                    "homepage": "https://github.com/swalkinshaw"
-                },
-                {
                     "name": "Ben Word",
                     "email": "ben@benword.com",
                     "homepage": "https://github.com/retlehs"
+                },
+                {
+                    "name": "Scott Walkinshaw",
+                    "email": "scott.walkinshaw@gmail.com",
+                    "homepage": "https://github.com/swalkinshaw"
                 }
             ],
             "description": "WordPress plugin that allows you to switch between different environments from the admin bar",
@@ -533,7 +533,17 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2019-03-23T20:05:36+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/roots",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/rootsdev",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2021-10-22T02:12:04+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -795,6 +805,31 @@
             "time": "2021-03-16T10:20:04+00:00"
         },
         {
+            "name": "taahirisaacs/woo-conditional-shipping-pro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://taahirisaacs@github.com/taahirisaacs/woo-conditional-shipping-pro.git",
+                "reference": "0efff31a064f14ef4f62276873593a81c156b8cd"
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Flux"
+                }
+            ],
+            "description": "Flux base for Flux DNA",
+            "homepage": "https://github.com/taahirisaacs/woo-conditional-shipping-pro",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2021-11-05T19:01:14+00:00"
+        },
+        {
             "name": "taahirisaacs/woocommerce-gateway-snapscan",
             "version": "1.1.10",
             "source": {
@@ -964,15 +999,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.4.4",
+            "version": "3.4.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.4.4"
+                "reference": "tags/3.4.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.4.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.4.7.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -982,15 +1017,15 @@
         },
         {
             "name": "wpackagist-plugin/flexible-product-fields",
-            "version": "1.7.5",
+            "version": "2.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/flexible-product-fields/",
-                "reference": "tags/1.7.5"
+                "reference": "tags/2.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/flexible-product-fields.1.7.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/flexible-product-fields.2.0.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -1072,15 +1107,15 @@
         },
         {
             "name": "wpackagist-plugin/seo-by-rank-math",
-            "version": "1.0.73",
+            "version": "1.0.75",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/seo-by-rank-math/",
-                "reference": "tags/1.0.73"
+                "reference": "tags/1.0.75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.73.zip"
+                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.75.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -1126,15 +1161,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "5.7.1",
+            "version": "5.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/5.7.1"
+                "reference": "tags/5.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.5.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.5.8.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -1619,16 +1654,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.6.0",
+            "version": "3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625"
+                "reference": "f268ca40d54617c6e06757f83f699775c9b3ff2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
-                "reference": "ffced0d2c8fa8e6cdc4d695a743271fab6c38625",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/f268ca40d54617c6e06757f83f699775c9b3ff2e",
+                "reference": "f268ca40d54617c6e06757f83f699775c9b3ff2e",
                 "shasum": ""
             },
             "require": {
@@ -1666,12 +1701,13 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2021-04-09T00:54:41+00:00"
+            "time": "2021-10-11T04:00:11+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "taahirisaacs/woo-conditional-shipping-pro": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
