@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa560eff8b8d7825799f29f4136974dd",
+    "content-hash": "09e5e901fd63256edb200c9fc1190fba",
     "packages": [
         {
             "name": "composer/installers",
@@ -854,6 +854,31 @@
             "time": "2020-09-21T07:06:46+00:00"
         },
         {
+            "name": "taahirisaacs/woocommerce-zapier",
+            "version": "2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://taahirisaacs@github.com/taahirisaacs/woocommerce-zapier.git",
+                "reference": "017fd18d3472195bad59d9c72f4044be92a87b6f"
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "WooCommerce"
+                }
+            ],
+            "description": "WooCommerce Zapier",
+            "homepage": "https://github.com/taahirisaacs/woocommerce-zapier",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "time": "2021-11-08T19:56:16+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v4.2.1",
             "source": {
@@ -1034,6 +1059,24 @@
             "homepage": "https://wordpress.org/plugins/flexible-product-fields/"
         },
         {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "10.4-a.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/10.4-a.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.10.4-a.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0 || ~2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
             "name": "wpackagist-plugin/leadin",
             "version": "7.45.6",
             "source": {
@@ -1107,15 +1150,15 @@
         },
         {
             "name": "wpackagist-plugin/seo-by-rank-math",
-            "version": "1.0.75",
+            "version": "1.0.76",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/seo-by-rank-math/",
-                "reference": "tags/1.0.75"
+                "reference": "tags/1.0.76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.75.zip"
+                "url": "https://downloads.wordpress.org/plugin/seo-by-rank-math.1.0.76.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -1232,24 +1275,6 @@
             "homepage": "https://wordpress.org/plugins/woocommerce-payfast-gateway/"
         },
         {
-            "name": "wpackagist-plugin/wp-multi-step-checkout",
-            "version": "2.18",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-multi-step-checkout/",
-                "reference": "tags/2.18"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-multi-step-checkout.2.18.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0 || ~2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-multi-step-checkout/"
-        },
-        {
             "name": "wpackagist-plugin/yoco-payment-gateway",
             "version": "1.42",
             "source": {
@@ -1293,12 +1318,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "bad3752fd78f4a07acb24e56fec0366aa711f150"
+                "reference": "a2102bff4c797a8f86e3c39ebc4d0b047e14b06d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/bad3752fd78f4a07acb24e56fec0366aa711f150",
-                "reference": "bad3752fd78f4a07acb24e56fec0366aa711f150",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a2102bff4c797a8f86e3c39ebc4d0b047e14b06d",
+                "reference": "a2102bff4c797a8f86e3c39ebc4d0b047e14b06d",
                 "shasum": ""
             },
             "conflict": {
@@ -1439,7 +1464,7 @@
                 "league/commonmark": "<0.18.3",
                 "league/flysystem": "<1.1.4|>=2,<2.1.1",
                 "lexik/jwt-authentication-bundle": "<2.10.7|>=2.11,<2.11.3",
-                "librenms/librenms": "<21.1",
+                "librenms/librenms": "<=21.10.2",
                 "limesurvey/limesurvey": "<3.27.19",
                 "livewire/livewire": ">2.2.4,<2.2.6",
                 "lms/routes": "<2.1.1",
@@ -1699,7 +1724,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-06T03:15:13+00:00"
+            "time": "2021-11-08T18:16:59+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
