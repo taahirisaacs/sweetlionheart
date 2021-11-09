@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09e5e901fd63256edb200c9fc1190fba",
+    "content-hash": "8b67f1518964d11a4438559f50aa6c49",
     "packages": [
         {
             "name": "composer/installers",
@@ -1042,15 +1042,15 @@
         },
         {
             "name": "wpackagist-plugin/flexible-product-fields",
-            "version": "2.0.1",
+            "version": "2.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/flexible-product-fields/",
-                "reference": "tags/2.0.1"
+                "reference": "tags/2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/flexible-product-fields.2.0.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/flexible-product-fields.2.0.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
