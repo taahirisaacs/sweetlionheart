@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c98f4f88d4c352a194a60de2d7e32dd5",
+    "content-hash": "947dba371be7d0f17dc3124207b7748d",
     "packages": [
         {
             "name": "composer/installers",
@@ -680,11 +680,11 @@
         },
         {
             "name": "taahirisaacs/flexible-product-fields-pro",
-            "version": "1.8.3",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://taahirisaacs@github.com/taahirisaacs/flexible-product-fields-pro.git",
-                "reference": "c2ba639c155a80215fef732eef016abe45e3952d"
+                "reference": "63c368351d70870932d31c211d6ec22f86cd164e"
             },
             "require": {
                 "php": ">=7.1"
@@ -695,7 +695,7 @@
                 "plugin",
                 "wordpress"
             ],
-            "time": "2021-09-20T13:22:50+00:00"
+            "time": "2021-11-05T19:31:48+00:00"
         },
         {
             "name": "taahirisaacs/gappointments-plugin",
@@ -1042,15 +1042,15 @@
         },
         {
             "name": "wpackagist-plugin/flexible-product-fields",
-            "version": "1.7.5",
+            "version": "2.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/flexible-product-fields/",
-                "reference": "tags/1.7.5"
+                "reference": "tags/2.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/flexible-product-fields.1.7.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/flexible-product-fields.2.0.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
