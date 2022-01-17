@@ -62,10 +62,6 @@
     },
     {
       "type": "vcs",
-      "url": "https://taahirisaacs@github.com/taahirisaacs/acf-pro.git"
-    },
-    {
-      "type": "vcs",
       "url": "https://taahirisaacs@github.com/fluxfullcircle/gf-hubspot.git"
     },
     {
@@ -109,32 +105,27 @@
     "wpackagist-plugin/password-protected":">=2.2.5",
     "wpackagist-plugin/wk-google-analytics":">=1.8.0",
     "wpackagist-plugin/post-smtp":">=2.0.12",
-    "wpackagist-plugin/powerpack-lite-for-elementor":"1.2.9.5",
+    "wpackagist-plugin/powerpack-lite-for-elementor":"2.6.6",
     "wpackagist-plugin/woocommerce-payfast-gateway":"1.4.15",
     "wpackagist-plugin/duplicate-post":"3.2.5",
     "wpackagist-plugin/yoco-payment-gateway":"1.42",
     "wpackagist-plugin/webappick-product-feed-for-woocommerce":"4.0.7",
-    "wpackagist-plugin/leadin":"7.45.6",
     "wpackagist-plugin/code-snippets":">=2.14.0",
     "wpackagist-plugin/ele-custom-skin":"3.0.0",
-    "wpackagist-plugin/woocommerce-advanced-free-shipping":"1.1.4",
     "wpackagist-plugin/conditional-shipping-for-woocommerce":">=2.2.0",
     "fluxfullcircle/gf-hubspot":"1.5.1",
-    "wpackagist-plugin/flexible-product-fields":"1.7.5",
-    "taahirisaacs/flexible-product-fields-pro":"1.8.3",
+    "wpackagist-plugin/flexible-product-fields":">=1.7.5",
+    "taahirisaacs/flexible-product-fields-pro":"2.1.0",
     "taahirisaacs/gappointments-plugin":">=1.9.3",
     "taahirisaacs/elementor-pro":">=2.10.3",
     "taahirisaacs/gravity-forms-plugin":">=2.4.18.2",
     "taahirisaacs/gf-zapier":">=3.3",
     "taahirisaacs/gf-bulk-actions":">=1.2.27",
-    "taahirisaacs/woocommerce-gateway-snapscan":">=1.1.10",
-    "taahirisaacs/acf-pro":">=5.8.12",
     "taahirisaacs/snapscan":"1.4",
     "taahirisaacs/delivery-slots-premium":">=1.14.0",
     "taahirisaacs/woo-conditional-shipping-pro":"dev-master",
     "taahirisaacs/woocommerce-zapier":"2.2.2",
     "wpackagist-plugin/jetpack":">=10.4-a.1",
-    "wpackagist-plugin/woo-checkout-field-editor-pro":">=1.5.0",
     "taahirisaacs/gf-image-choices":">=1.3.45"
   },
   "require-dev": {
